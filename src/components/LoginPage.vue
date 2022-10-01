@@ -35,15 +35,12 @@
                   Recordarme
                 </label>
               </div>
-              <a href="#!" class="text-body">Olvidaste tu contraseña?</a>
+              <a href="" class="text-body">Olvidaste tu contraseña?</a>
             </div>
 
             <div class="text-center text-lg-start mt-4 pt-2">
-              <button type="button" class="btn btn-primary btn-lg"
-                      style="padding-left: 2.5rem; padding-right: 2.5rem;">Iniciar Sesion</button>
-              <button type="button" class="btn btn-primary btn-lg"
-                      style="padding-left: 2.5rem; padding-right: 2.5rem;margin-left: 1rem">Registrarse</button>
-
+              <button onclick="location.href='/administrador'" type="button" class="btn btn-primary btn-lg"
+                      style="padding-left: 2.5rem; padding-right: 2.5rem;">Iniciar Sesion solo porque si</button>
             </div>
 
           </form>
@@ -66,6 +63,11 @@
 
 
 </template>
+
+<script>
+
+
+</script>
 
 <style>
 .divider:after,
