@@ -92,7 +92,7 @@
 						<div class="col-md-4">
 							<div class="row">
 								<div class="col-12">
-									<img id="img-newUser" src="../assets/newUser.png" class="img-thumbnail" alt="Error">
+									<img id="imgNew" src="../assets/newUser.png" class="img-thumbnail" alt="Error">
 									<div class="d-flex justify-content-evenly">
 										<input type="file" class="form-control"  id="imgNew">
 										<div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -101,7 +101,7 @@
 									<button class="btn btn-primary" style="margin-top:40px" type="submit" @click="validar()">Guardar Usuario</button>
 								</div>
 							</div>
-							<input type="button" class="btn btn-primary"  @click="NuevoUsuario()"  value="Historia">
+							<input type="button" class="btn btn-primary"  @click="NuevoUsuario()"  value="Agregar" style="margin-top: 1rem">
 						</div>
 	
 					</div>

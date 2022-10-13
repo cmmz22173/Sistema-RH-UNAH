@@ -1,6 +1,6 @@
 <template>
 
-<SampleNavbar/>
+  <SampleNavbar> <a class="nav-link" href="/menu">FFFF <span class="sr-only">(current)</span></a></SampleNavbar>
   <div class="card-group d-flex justify-content-center" style="padding-top: 10rem;padding-left: 5rem
   ;padding-right:5rem;background-color: rgb(255, 255, 255);
 	height: 100vh;">

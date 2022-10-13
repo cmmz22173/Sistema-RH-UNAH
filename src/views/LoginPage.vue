@@ -53,7 +53,8 @@
                         style="padding-left: 2.5rem; padding-right: 2.5rem;">Iniciar Sesion</button>
                 </div>
             </form>
-            <button @click="IniciarSecion()" class="btn btn-primary btn-lg" >asdfsfasdff</button>
+            <button @click="IniciarSecion()" class="btn btn-primary btn-lg" style="margin-top: 1rem;
+            padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar</button>
         </div>
     </div>
 </template>
