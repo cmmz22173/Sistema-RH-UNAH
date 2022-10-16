@@ -1,5 +1,5 @@
 <template>
-	<SampleNavbar/>
+  <SampleNavbar></SampleNavbar>
 	<div id="div-principal">
 		<div class="container">
 			<div id="formulario-newUser" >
@@ -111,7 +111,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 </template>
 
 	<script>

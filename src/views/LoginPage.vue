@@ -22,7 +22,7 @@
             </p>
         </div>
         <div id="div-login" class="col-5">
-            <img id="img-SEDP" src="@/assets/img/SDPE.png" alt="Error">
+            <img id="img-SEDP" src="@/assets/img/SDPE.png" alt="Error" style="position: center">
             <form class="row g-3 needs-validation" novalidate>
                 <div class="form-floating mb-3" style="margin-top: 20px;">
                     <input type="email" class="form-control" v-model="Email" id="txt-email" placeholder="name@example.com" required>

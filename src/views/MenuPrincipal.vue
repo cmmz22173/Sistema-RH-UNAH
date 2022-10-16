@@ -1,5 +1,5 @@
 <template>
-<SampleNavbar/>
+<SideBar></SideBar>
 <div class="card-group d-flex justify-content-center" style="padding-top: 10rem;padding-left: 5rem
   ;padding-right:5rem;background-color: rgb(255, 255, 255);
 	height: 100vh;">
@@ -63,10 +63,12 @@
 
 <script>
 
-import SampleNavbar from "@/components/navbar/SampleNavbar";
+
+import SideBar from "@/components/sidebar/SideBar";
+
 export default {
   components: {
-    SampleNavbar
+    SideBar
 
   }
 }

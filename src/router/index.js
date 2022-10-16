@@ -5,6 +5,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import MenuPrincipal from "@/views/MenuPrincipal";
 import RegistroUsuario from "@/views/RegistroUsuario";
 import Login from "@/views/LoginPage.vue";
+import PerfilUsuario from "@/views/PerfilUsuario";
 
 const routes = [
     {
@@ -32,6 +33,11 @@ const routes = [
         name: 'Registro-usuario',
         component: RegistroUsuario,
         props: true
+    },
+    {
+      path:'/perfil',
+      name:'Perfil-usuario',
+      component: PerfilUsuario
     }
 
 ]
