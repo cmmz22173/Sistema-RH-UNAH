@@ -1,5 +1,5 @@
 <template>
-  <SampleNavbar></SampleNavbar>
+  <SideBarAdmin></SideBarAdmin>
 	<div id="div-principal">
 		<div class="container">
 			<div id="formulario-newUser" >
@@ -115,11 +115,12 @@
 </template>
 
 	<script>
-		import SampleNavbar from "@/components/navbar/SampleNavbar";
+
 		import axios from 'axios';
+    import SideBarAdmin from "@/components/sidebar/SideBarAdmin";
 	export default{
 		components: {
-			SampleNavbar
+      SideBarAdmin
 		},
 		name: 'registroUsuario',
 		data(){

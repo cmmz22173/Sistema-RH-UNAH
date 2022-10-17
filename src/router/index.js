@@ -6,6 +6,7 @@ import MenuPrincipal from "@/views/MenuPrincipal";
 import RegistroUsuario from "@/views/RegistroUsuario";
 import Login from "@/views/LoginPage.vue";
 import PerfilUsuario from "@/views/PerfilUsuario";
+import PAA from "@/views/PAA";
 
 const routes = [
     {
@@ -38,6 +39,11 @@ const routes = [
       path:'/perfil',
       name:'Perfil-usuario',
       component: PerfilUsuario
+    },
+    {
+        path:'/paa',
+        name:'Modulo-PAA',
+        component: PAA
     }
 
 ]

@@ -41,7 +41,7 @@
     </a>
   </div>
   <div class="col">
-    <a href="#" >
+    <a href="/paa" >
       <div class="card w-100">
         <img src="@/assets/paa-logo.png" class="img-fluid" style="width: 75%;display: block;margin:auto;
         padding-top: 1rem">
