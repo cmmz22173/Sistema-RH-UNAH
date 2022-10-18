@@ -1,20 +1,24 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg " id="NavbarMain">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">Navbar sujeto a cambios</a>
+
+    <button class="navbar ">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/menu">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Modo admin</a>
+          <a class="nav-link disabled" href="#"></a>
         </li>
       </ul>
 
@@ -30,6 +34,11 @@ export default {
 
 <style scoped>
 .navbar{
-  padding-left: 1rem;
+  padding-left: 2rem;
+  background-color: #ffbf00;
+}
+.nav-link:hover{
+  transition: 0.2s;
+  transform: scale(1.05);
 }
 </style>

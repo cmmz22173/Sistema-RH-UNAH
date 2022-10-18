@@ -1,20 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 
-import App from "@/App";
+// import App from "@/App";
 import MenuPrincipal from "@/views/MenuPrincipal";
 import RegistroUsuario from "@/views/RegistroUsuario";
+import Login from "@/views/LoginPage.vue";
+import PerfilUsuario from "@/views/PerfilUsuario";
+import PAA from "@/views/PAA";
 
 const routes = [
     {
         path: '/',
         name: 'Home',
-        component: App
+        component:()=> import('../views/HomeView.vue')
     },
     {
         path: '/login',
         name: 'login',
-        component:()=> import('../components/LoginPage')
+        component:Login
     },
     {
         path: '/administrador',
@@ -31,6 +34,16 @@ const routes = [
         name: 'Registro-usuario',
         component: RegistroUsuario,
         props: true
+    },
+    {
+      path:'/perfil',
+      name:'Perfil-usuario',
+      component: PerfilUsuario
+    },
+    {
+        path:'/paa',
+        name:'Modulo-PAA',
+        component: PAA
     }
 
 ]
