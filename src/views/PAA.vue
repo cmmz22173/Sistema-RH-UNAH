@@ -18,6 +18,71 @@
     </form>
   </div>
 
+  <div class="d-flex card PerfilCard">
+    <div class="" style="margin: 2rem 3rem 0.5rem">
+      <h3 style="float: left">Perfil basico</h3>
+
+      <div style="float: right" id="statusIndicador">Activo</div>
+    </div>
+    <div class="d-flex" id="containerCardPerfil" about="AQUI VA LA FOTO DEL EMPLEADO">
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg"
+        alt=""
+        style="width: 150px; height: 150px"
+        class="rounded-circle"
+    />
+
+      <div class="" style="padding-left: 5rem" about="Aqui va la informacion personal">
+        <h5 class="d-flex">Nombre</h5>
+        <label>Mark Alfonso Zucaritas Rodriguez</label>
+
+        <h5 class="d-flex" style="margin-top: 1rem">ID Empleado</h5>
+        <label class="d-flex">44444</label>
+
+        <h5 class="d-flex" style="margin-top: 1rem">Correo institucional</h5>
+        <label class="d-flex">Mark@unah.com</label>
+
+        <h5 class="d-flex" style="margin-top: 1rem">Identidad</h5>
+        <label class="d-flex">0801-1999-20231</label>
+
+        <h5 class="d-flex" style="margin-top: 1rem">Nacionalidad</h5>
+        <label class="d-flex">Honduras</label>
+
+      </div>
+
+      <div class="" style="padding-left: 5rem" about="Aqui va informacion universitaria">
+        <h5 class="d-flex">Centro</h5>
+        <label class="d-flex">Ciudad Universitaria </label>
+
+        <h5 class="d-flex" style="margin-top: 1rem">Unidad</h5>
+        <label class="d-flex">Efectividad de Recursos Humanos</label>
+
+        <h5 class="d-flex" style="margin-top: 1rem">Rol</h5>
+        <label class="d-flex">Administrativo</label>
+
+        <h5 class="d-flex" style="margin-top: 1rem">Puesto</h5>
+        <label class="d-flex">Especialista en cookies</label>
+      </div>
+
+
+      <div class="" style="padding-left: 5rem" about="Aqui va informacion de los dias de PAA">
+        <h5 class="d-flex" >Dias totales</h5>
+        <label class="d-flex">10</label>
+
+        <h5 class="d-flex" style="margin-top: 1rem">Disponibles</h5>
+        <label class="d-flex">7</label>
+
+        <h5 class="d-flex" style="margin-top: 1rem">Gozados</h5>
+        <label class="d-flex">3</label>
+
+      </div>
+
+
+  </div>
+
+
+  </div>
+
   <div class="d-flex justify-content-left" style="padding-left: 5rem">
 
     <form class="d-flex needs-validation">
@@ -56,7 +121,7 @@
     <select class="form-select w-auto optionBtn" aria-label="Default select example" required>
       <option selected disabled value="">Tipo</option>
       <option value="1">Todos</option>
-      <option value="2">no se</option>
+      <option value="2">PAM</option>
       <option value="3">PAA</option>
       <option value="4">PCCNS</option>
     </select>
@@ -226,6 +291,26 @@ p{
 
 .btnTablas{
   margin-left: 1rem;
+  margin-bottom: 3rem;
 }
+.PerfilCard{
+
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  height: auto;
+}
+
+#containerCardPerfil{
+  padding: 1rem 3rem 4rem;
+}
+#statusIndicador{
+  background-color: #A8E890;
+  border-radius: 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: #425F57;
+}
+
 
 </style>
