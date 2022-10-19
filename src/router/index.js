@@ -7,6 +7,7 @@ import RegistroUsuario from "@/views/RegistroUsuario";
 import Login from "@/views/LoginPage.vue";
 import PerfilUsuario from "@/views/PerfilUsuario";
 import PAA from "@/views/PAA";
+import AdministrarRoles from "@/views/AdministrarRoles";
 
 const routes = [
     {
@@ -44,6 +45,11 @@ const routes = [
         path:'/paa',
         name:'Modulo-PAA',
         component: PAA
+    },
+    {
+        path:'/roles-usuario',
+        name:'Roles-Usuario',
+        component: AdministrarRoles
     }
 
 ]

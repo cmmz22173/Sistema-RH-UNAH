@@ -157,11 +157,13 @@
       </thead>
       <tbody>
       <tr>
+        <!--SOLO ES UN EJEMPLO -->
         <th scope="row">1</th>
-        <td>101</td>
-        <td>
+        <td about="AQUI VA EL ID DEL USUARIO">101</td>
+        <td about="AQUI VA LA IMAGEN, NOMBRE, Y CORREO">
           <div class="d-flex align-items-center">
             <img
+                about="IMAGEN DEL EMPLEADO"
                 src="https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg"
                 alt=""
                 style="width: 35px; height: 35px"
@@ -173,21 +175,24 @@
             </div>
           </div>
         </td>
-        <td>2020</td>
-        <td>I PAC</td>
-        <td>12/02/2020</td>
-        <td>Supervisor</td>
-        <td>PAA</td>
-        <td>B2</td>
-        <td>201</td>
-        <td>3</td>
+        <!--SOLO ES UN EJEMPLO-->
+        <td about="AQUI VA EL ANIO">2020</td>
+        <td about="AQUI VA EL PERIODO">I PAC</td>
+        <td about="AQUI VA LA FECHA">12/02/2020</td>
+        <td ABOUT="AQUI VA LA FUNCION">Supervisor</td>
+        <td about="AQUI VA EL TIPO DE PRUEBA">PAA</td>
+        <td ABOUT="AQUI VA EL EDIFICIO">B2</td>
+        <td about="AQUI VA EL AULA">201</td>
+        <td about="AQUI VAN LAS HORAS">3</td>
+
         <td><button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#infoEmpleado">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
           <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
           <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
           </svg>
           </button>
-          <!-- Modal -->
+
+          <!-- MODAL DE INFO EN TABLA-->
           <div class="modal fade" id="infoEmpleado" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -213,6 +218,8 @@
   </div>
 
   <div class="d-flex justify-content-end" style="padding-left: 4rem; padding-right: 4rem;margin-top: 2rem">
+
+    <!--BOTON PARA GENERAR REPORTES (ESCONDER EN CASO DE NO COMPLETAR A TIEMPO)-->
     <button type="button" class="btn btn-secondary btnTablas" id="" data-bs-toggle="modal" data-bs-target="">
       Reportes
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16" style="margin-left: 0.3rem">
@@ -221,16 +228,17 @@
       </svg>
     </button>
 
+    <!--BOTON PARA AGREGAR UNA PARTICIPACION-->
     <button type="button" class="btn btn-success btnTablas" data-bs-toggle="modal" data-bs-target="#agregarParticipantes">
       Agregar
-
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16" style="margin-left: 0.3rem">
         <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
         <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
         <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
       </svg>
     </button>
-    <!-- Modal -->
+
+    <!--MODAL PARA FORMULARIO DE UN PARTICIPANTE-->
     <div class="modal fade modal-xl" id="agregarParticipantes" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -261,6 +269,7 @@ export default {
   components:{SideBar}
 }
 </script>
+
 
 <style scoped>
 .optionBtn{
