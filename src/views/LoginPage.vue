@@ -49,11 +49,10 @@
                     <a href="" class="text-body">Olvidaste tu contraseña?</a>
                 </div>
                 <div class="d-grid gap-2">
-                <button @click="validar()"  class="btn btn-primary btn-lg"
-                        style="padding-left: 2.5rem; padding-right: 2.5rem;">Iniciar Sesion</button>
+
                 </div>
             </form>
-            <button @click="IniciarSecion()" class="btn btn-primary btn-lg" style="margin-top: 1rem;
+            <button @click="validar();IniciarSecion()" class="btn btn-primary btn-lg" style="margin-top: 1rem;
             padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar</button>
         </div>
     </div>

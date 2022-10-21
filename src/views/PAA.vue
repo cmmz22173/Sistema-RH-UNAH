@@ -220,7 +220,7 @@
   <div class="d-flex justify-content-end" style="padding-left: 4rem; padding-right: 4rem;margin-top: 2rem">
 
     <!--BOTON PARA GENERAR REPORTES (ESCONDER EN CASO DE NO COMPLETAR A TIEMPO)-->
-    <button type="button" class="btn btn-secondary btnTablas" id="" data-bs-toggle="modal" data-bs-target="">
+    <button type="button" class="btn btn-secondary btnTablas" id="" data-bs-toggle="modal" data-bs-target="" hidden>
       Reportes
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16" style="margin-left: 0.3rem">
         <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
@@ -247,11 +247,134 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-            <button type="button" class="btn btn-primary">Guardar</button>
+
+            <div class="modal-body">
+              <div class="container">
+                <form class="row mt-2 g-3 needs-validation" novalidate>
+                  <div class="col-sm-1">
+                    <label for="txt-id" class="form-label fw-bold" >ID PAA</label>
+                    <input type="text" class="form-control"  id="txt-id" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                    <div class="invalid-feedback">
+                      Llenar los campos.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-2">
+                    <label for="txt-participacion" class="form-label fw-bold" >Participacion</label>
+                    <input type="text" class="form-control"  id="participacion" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                    <div class="invalid-feedback">
+                      Llenar los campos.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-1">
+                    <label for="txt-dias" class="form-label fw-bold" >Horas</label>
+                    <input type="number" class="form-control"  id="txt-dias" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                    <div class="invalid-feedback">
+                      Llenar los campos.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-2">
+                    <label for="txt-fechas" class="form-label fw-bold" >Fechas</label>
+                    <input type="date" class="form-control"  id="txt-fechas" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                    <div class="invalid-feedback">
+                      Llenar los campos.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-1">
+                    <label for="txt-vigentes" class="form-label fw-bold" >Vigentes</label>
+                    <input type="text" class="form-control"  id="txt-vigentes" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                    <div class="invalid-feedback">
+                      Llenar los campos.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-2">
+                    <label for="txt-diasg" class="form-label row-center fw-bold" >Dias gozados</label>
+                    <input type="number" class="form-control"  id="txt-diasg" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                    <div class="invalid-feedback">
+                      Llenar los campos.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-2">
+                    <label for="txt-oficio" class="form-label fw-bold" >Oficio</label>
+                    <input type="text" class="form-control"  id="txt-oficio" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                    <div class="invalid-feedback">
+                      Llenar los campos.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-2">
+                    <label for="txt-fechaf" class="form-label fw-bold" >Fecha final</label>
+                    <input type="date" class="form-control"  id="txt-fechaf" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                    <div class="invalid-feedback">
+                      Llenar los campos.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-2">
+                    <label for="txt-proceso" class="form-label fw-bold" >Proceso</label>
+                    <input type="text" class="form-control"  id="txt-proceso" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                    <div class="invalid-feedback">
+                      Llenar los campos.
+                    </div>
+                  </div>
+                  <br>
+                  <div class="d-flex justify-content-left" style="padding-left: -5rem">
+                    <select class="form-select w-auto optionBtn" aria-label="Default select example" required>
+                      <option selected disabled value="" class="fw-bold">Edificio</option>
+                      <option value="1">Todos</option>
+                      <option value="2">B1</option>
+                      <option value="3">B2</option>
+                      <option value="4">F1</option>
+                    </select>
+
+                    <select class="form-select w-auto optionBtn" aria-label="Default select example" required>
+                      <option selected disabled value="" class="fw-bold">Tipo</option>
+                      <option value="1">Todas</option>
+                      <option value="2">PAA</option>
+                      <option value="3">PCCNS</option>
+                      <option value="4">PAM</option>
+                    </select>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" type="submit"  @click="validar();nuevoPAA()">Enviar</button>
+
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -265,9 +388,23 @@
 <script>
 import SideBar from "@/components/sidebar/SideBar";
 
+
+
 export default {
-  components:{SideBar}
+  components:{SideBar},
+  methods:{
+    async empleado(){
+    },
+    async nuevoPAA() {
+
+    }
+
+  }
+
 }
+
+
+
 </script>
 
 

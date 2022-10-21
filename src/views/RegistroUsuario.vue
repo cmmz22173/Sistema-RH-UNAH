@@ -98,10 +98,9 @@
 										<div class="d-grid gap-2 d-md-flex justify-content-md-end">
 										</div>
 									</div>
-									<button class="btn btn-primary" style="margin-top:40px" type="submit" @click="validar()">Guardar Usuario</button>
+									<button class="btn btn-primary" style="margin-top:40px" type="submit" @click="validar();NuevoUsuario()">Guardar Usuario</button>
 								</div>
 							</div>
-							<input type="button" class="btn btn-primary"  @click="NuevoUsuario()"  value="Agregar" style="margin-top: 1rem">
 						</div>
 	
 					</div>

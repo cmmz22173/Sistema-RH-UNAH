@@ -111,7 +111,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-          <button type="button" class="btn btn-danger" @click="cerrarSesion">Cerrar Sesion</button>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="cerrarSesion">Cerrar Sesion</button>
         </div>
       </div>
     </div>
