@@ -11,7 +11,7 @@
         <img src="@/assets/registro.png" class="img-fluid" style="width: 75%;display: block;margin:auto;
         padding-top: 1rem">
         <div class="card-body justify-content-center" style="text-align: center">
-          <label style="color: black">Registrar usuario</label>
+          <label style="color: black">R</label>
 
         </div>
       </div>
